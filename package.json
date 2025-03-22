@@ -1,0 +1,22 @@
+{
+  "name": "xrpl-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "react-router-dom": "^7.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
